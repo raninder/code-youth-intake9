@@ -26,5 +26,10 @@ commit: save changes
 
 3. Definition List
  HTML: 
+
+- style	
+- image tag
+- block level and inline elements
+- Hyperlinking
  
  
