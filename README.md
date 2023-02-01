@@ -11,6 +11,7 @@ push: push changes from local repo to remote repo
 pull: fetch chnages from remote to local repo
 commit: save changes
 
+31/1/2023
 - Head tag: Meta, title, style, script
 - attributes
 - List tag
@@ -31,5 +32,10 @@ commit: save changes
 - image tag
 - block level and inline elements
 - Hyperlinking
+
+1/2/2023
+- images as a hyperlink
+- internal linking within a page
+- tables: cellspacing, cellpadding, colspan, rowspan
  
  
