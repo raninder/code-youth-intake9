@@ -11,3 +11,8 @@ Ex6: internal linking: making differnet sections and jumping to that section
 		https://clearlydecoded.com/creating-internal-external-html-links
 Ex7: tables: https://www.w3.org/TR/html401/images/mergedcells.gif
 		https://www.programming9.com/images/timrtable_html_programming9.png
+
+02/02/2023
+Ex8: Forms
+https://www.w3.org/wiki/images/0/01/Figure30.png
+https://colorlib.com/wp/wp-content/uploads/sites/2/free-html5-and-css3-login-forms.jpg		
