@@ -37,5 +37,10 @@ commit: save changes
 - images as a hyperlink
 - internal linking within a page
 - tables: cellspacing, cellpadding, colspan, rowspan
+
+2/2/2023
+
+- Forms
+- attributes of form : method=get/post action (server file that will process form data)
  
  
