@@ -42,5 +42,20 @@ commit: save changes
 
 - Forms
 - attributes of form : method=get/post action (server file that will process form data)
- 
+
+3/2/2023
+- iframe
+- embedding google maps, youtube videos
+- audio and video files 
+- div and span tag
+- semantic elemnets like header, footer,nav, section, thead, tbody etc.
+# QUIZ: https://www.interviewbit.com/html-mcq/
+https://www.examtiger.com/mcq/html-programming-questions-answers/
+
+# media
+- mp3
+Ex: https://www.soundhelix.com/audio-examples
+
+- mp4
+https://gist.github.com/manico/f2e6dd3371f17737331d559219b354ab
  
