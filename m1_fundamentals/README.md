@@ -16,3 +16,11 @@ Ex7: tables: https://www.w3.org/TR/html401/images/mergedcells.gif
 Ex8: Forms
 https://www.w3.org/wiki/images/0/01/Figure30.png
 https://colorlib.com/wp/wp-content/uploads/sites/2/free-html5-and-css3-login-forms.jpg		
+
+03/03/2023
+Ex9: google maps and forms
+https://www.123formbuilder.com/docs/configure-google-maps-with-your-api/
+Ex10:  Library page
+https://openlibrary.org/developers/api
+Ex11: A tribute page
+Ex12: www.cp24news.com  - 2 news with div
