@@ -59,3 +59,15 @@ Ex: https://www.soundhelix.com/audio-examples
 - mp4
 https://gist.github.com/manico/f2e6dd3371f17737331d559219b354ab
  
+
+# CSS
+Cascading Style Sheets
+h1- color:blue
+h1: color:red
+
+#head color:pink
+
+3 ways to include styles:
+1. Inline CSS
+2. internal CSS
+3. External CSS
