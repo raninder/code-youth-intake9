@@ -26,6 +26,20 @@ Ex11: A tribute page
 Ex12: www.cp24news.com  - 2 news with div
 
 06/03/2023
-Ex10: quotation page with background color: light blue
+Ex10: quotation page with background color: light blue 
 Quotation title-center, Dark blue
 Quotation1, 2- center,red, font -arial,background-pink
+
+<q>
+text-align:center
+color:red
+background-color:
+font-family:
+
+- type selector - p{}
+- universal selector - *{}
+- class selector - .classname{}
+- id seelctor - #idname{}
+- grouping selectors - h1,p {}
+- multiple classes in a tag - p class= "class1 class2">   
+
