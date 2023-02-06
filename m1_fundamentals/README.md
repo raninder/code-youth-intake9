@@ -24,3 +24,8 @@ Ex10:  Library page
 https://openlibrary.org/developers/api
 Ex11: A tribute page
 Ex12: www.cp24news.com  - 2 news with div
+
+06/03/2023
+Ex10: quotation page with background color: light blue
+Quotation title-center, Dark blue
+Quotation1, 2- center,red, font -arial,background-pink
