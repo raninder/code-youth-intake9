@@ -41,5 +41,5 @@ font-family:
 - class selector - .classname{}
 - id seelctor - #idname{}
 - grouping selectors - h1,p {}
-- multiple classes in a tag - p class= "class1 class2">   
+- multiple classes in a tag - p class= "class1 class2">  .... 
 
