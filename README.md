@@ -71,3 +71,10 @@ h1: color:red
 1. Inline CSS
 2. internal CSS
 3. External CSS
+
+- type selector - p{}
+- universal selector - *{}
+- class selector - .classname{}
+- id seelctor - #idname{}
+- grouping selectors - h1,p {}
+- multiple classes in a tag - p class= "class1 class2">  .... 
