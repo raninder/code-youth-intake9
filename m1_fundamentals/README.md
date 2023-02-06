@@ -36,10 +36,6 @@ color:red
 background-color:
 font-family:
 
-- type selector - p{}
-- universal selector - *{}
-- class selector - .classname{}
-- id seelctor - #idname{}
-- grouping selectors - h1,p {}
-- multiple classes in a tag - p class= "class1 class2">  .... 
+Ex11: An article with keywords marked
+
 
