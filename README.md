@@ -60,6 +60,8 @@ Ex: https://www.soundhelix.com/audio-examples
 https://gist.github.com/manico/f2e6dd3371f17737331d559219b354ab
  
 
+
+6/2/2023
 # CSS
 Cascading Style Sheets
 h1- color:blue
@@ -79,6 +81,14 @@ h1: color:red
 - grouping selectors - h1,p {}
 - multiple classes in a tag - p class= "class1 class2">  .... 
 
+
+7/2/2023
+ - backgrounds, text, fonts
+ - styling hyperlinks
+ - box model
+ - display: block, inline, inline-block
+
+Lateron 
 flexbox
 https://medium.com/@ianjsikes/build-a-personal-website-with-html-and-css-part-1-3013fb5dacd4
 https://medium.com/@ianjsikes/build-a-personal-website-with-html-and-css-part-2-a12ca00f5c1b
