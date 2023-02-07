@@ -38,4 +38,11 @@ font-family:
 
 Ex11: An article with keywords marked
 
+https://images-platform.99static.com/wGo8AQniMnsn3KkCtMTyham33yk=/500x500/top/smart/99designs-contests-attachments/4/4718/attachment_4718300
+https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7dsQrPrexJrVy6boXUwq8Q.png
+https://doc.qt.io/qt-6/images/simplebrowser.png
+https://www.html.am/templates/downloads/bryantsmith/barrensavannah/
+
+
+
 
