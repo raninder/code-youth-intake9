@@ -78,3 +78,7 @@ h1: color:red
 - id seelctor - #idname{}
 - grouping selectors - h1,p {}
 - multiple classes in a tag - p class= "class1 class2">  .... 
+
+flexbox
+https://medium.com/@ianjsikes/build-a-personal-website-with-html-and-css-part-1-3013fb5dacd4
+https://medium.com/@ianjsikes/build-a-personal-website-with-html-and-css-part-2-a12ca00f5c1b
