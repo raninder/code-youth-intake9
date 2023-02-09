@@ -88,9 +88,16 @@ h1: color:red
  - box model
  - display: block, inline, inline-block
 
-Lateron 
-flexbox
+
+9/2/2023
+
+- float
+- flexbox
+https://flexboxfroggy.com/
+https://medium.com/swlh/how-i-use-flexbox-to-create-a-one-page-website-81db78e61738
+https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/
+https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+https://www.freecodecamp.org/news/even-more-about-how-flexbox-works-explained-in-big-colorful-animated-gifs-a5a74812b053/#:~:text=As%20a%20final%20recap%3A%20flex,how%20much%20it%20will%20shrink.
+
 https://medium.com/@ianjsikes/build-a-personal-website-with-html-and-css-part-1-3013fb5dacd4
 https://medium.com/@ianjsikes/build-a-personal-website-with-html-and-css-part-2-a12ca00f5c1b
-
-hh
