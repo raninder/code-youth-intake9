@@ -101,3 +101,7 @@ https://www.freecodecamp.org/news/even-more-about-how-flexbox-works-explained-in
 
 https://medium.com/@ianjsikes/build-a-personal-website-with-html-and-css-part-1-3013fb5dacd4
 https://medium.com/@ianjsikes/build-a-personal-website-with-html-and-css-part-2-a12ca00f5c1b
+
+
+grid:
+https://www.quackit.com/css/grid/tutorial/css_grid_introduction.cfm
