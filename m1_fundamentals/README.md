@@ -43,7 +43,11 @@ https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7dsQrPrexJrVy6boXUwq8Q.
 https://doc.qt.io/qt-6/images/simplebrowser.png
 
 
-07/03/2023
+07/02/2023
 Ex12: header and 3 news from https://www.cbc.ca/news
 Ex13: any website layout from https://www.html.am/templates/simple-website-templates/
+
+10/02/2023
+Ex: Google home page using flexbox
+Ex: products page using grid layout
 
