@@ -51,3 +51,7 @@ Ex13: any website layout from https://www.html.am/templates/simple-website-templ
 Ex: Google home page using flexbox
 Ex: products page using grid layout
 
+PROJECTS
+https://github.com/GabrielHLock/Reptile_Webpage_Collaboration
+https://github.com/Mikey199977/Neighbourhoodhero
+https://github.com/NathArcher/Intake-9-project-Menu-Portal
