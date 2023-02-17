@@ -25,18 +25,28 @@ a = 25;
 - multiple if-else
 - nested if-else
 Ex: 
-1. find the greater of three numbers
+1. read any day number in integer and display day name in the word.
 2. even or odd
 3. postive, negative or zero
 4. check leap year
 5. divisible by 5 or 11
 6. check whether a character is vowel or consonant
-7. find no. of days in a month
-8. if no. divisible by 3, print three, if divisible by 5 print five, if by both 3 and 5, print threefive
-9. read temperature in celsius and display a suitable message according to temperature state below : 
-Temp < 0 then Freezing weather
-Temp 0-10 then Very Cold weather
-Temp 10-20 then Cold weather
-Temp 20-30 then Normal in Temp
-Temp 30-40 then Its Hot
-Temp >=40 then Its Very Hot
+7. accept a grade and declare the equivalent description : Go to the editor
+
+		Grade	Description
+		E	Excellent
+		V	Very Good
+		G	Good
+		A	Average
+		F	Fail
+8. find no. of days in a month
+9. find the greater of three numbers
+10. if no. divisible by 3, print three, if divisible by 5 print five, if by both 3 and 5, print threefive
+11. read temperature in celsius and display a suitable message according to temperature state below : 
+		Temp < 0 then Freezing weather
+		Temp 0-10 then Very Cold weather
+		Temp 10-20 then Cold weather
+		Temp 20-30 then Normal in Temp
+		Temp 30-40 then Its Hot
+		Temp >=40 then Its Very Hot
+
