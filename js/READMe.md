@@ -50,3 +50,59 @@ Ex:
 		Temp 30-40 then Its Hot
 		Temp >=40 then Its Very Hot
 
+
+1. Input two numbers.
+2. com pare one number with the other
+3. if one is greater than, print: one is greater
+4. goto step1
+
+
+difference between =, ==,===
+=  a=3
+== comparison/equality a==3  checks value only
+=== strict equality operator, value as well as data type   a=3
+a===3
+
+/
+%
+
+21/02/2023
+# loop
+repeat a task/statement certain no. of times
+- for, while, do-while
+
+
+for(initlization;condition;updation){
+	//code to be executed
+}
+
+Ex1: display first 20 odd natural numbers
+1
+3
+5
+7
+9
+11
+13
+15
+17
+19
+
+ex2: input 5 numbers from user and display sum
+2+5+4+7+12 = 30
+
+Ex-practice:
+1. program to find the sum  and average of first 20 even natural numbers.
+2. program that prompts the user to input a positive integer. It should then print the multiplication table of that number. 
+3. program to enter 10 numbers from the user and display the count of positive, negative and zeros entered. 
+4. program to display the cube of the number upto given an integer. 
+Test Data :
+Input number of terms : 5
+Expected Output :
+Number is : 1 and cube of the 1 is :1
+Number is : 2 and cube of the 2 is :8
+Number is : 3 and cube of the 3 is :27
+Number is : 4 and cube of the 4 is :64
+Number is : 5 and cube of the 5 is :125
+5. Fibonacci series
+6. program to determine whether a given number is prime or not.
