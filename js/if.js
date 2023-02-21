@@ -23,3 +23,7 @@ if(a>5){
 else{
 	console.log("less than 3");
 }
+
+// O(10)
+
+// O(1)
