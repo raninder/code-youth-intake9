@@ -15,6 +15,9 @@ for(let i=1;i<=10;i++){  //i=i+1//i++
 	console.log(i);
 }//n
 
+for(i=10;i>=0;i--){
+	console.log(i);
+}
 //first 10 odd natural nuumebrs
 console.log("odd natural numbers")
 for(let i=1;i<20;i+=2){    //i=i+2  i+=2
