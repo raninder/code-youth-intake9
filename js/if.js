@@ -24,6 +24,13 @@ else{
 	console.log("less than 3");
 }
 
+if(a%2==0){
+	console.log(a,"is even");
+}
+else{
+	console.log(a," is odd");
+}
+
 // O(10)
 
 // O(1)
