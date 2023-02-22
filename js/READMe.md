@@ -94,7 +94,7 @@ ex2: input 5 numbers from user and display sum
 Ex-practice:
 1. program to find the sum  and average of first 20 even natural numbers.
 2. program that prompts the user to input a positive integer. It should then print the multiplication table of that number. 
-3. program to enter 10 numbers from the user and display the count of positive, negative and zeros entered. 
+3. program to enter 5 numbers from the user and display the count of positive, negative and zeros entered. 
 4. program to display the cube of the number upto given an integer. 
 Test Data :
 Input number of terms : 5
@@ -104,5 +104,9 @@ Number is : 2 and cube of the 2 is :8
 Number is : 3 and cube of the 3 is :27
 Number is : 4 and cube of the 4 is :64
 Number is : 5 and cube of the 5 is :125
-5. Fibonacci series
-6. program to determine whether a given number is prime or not.
+5. Factorial of a number
+6. program to keep asking for a number until you enter a negative number. At the end, print the sum of all entered numbers.
+7. program to ask for a name until the user enters END. Print the name each time. When you are done, print "I am done."
+8. program which iterates the integers from 1 to 100. But for multiples of three print "Three" instead of the number and for the multiples of five print "Five". For numbers which are multiples of both three and five print "Three-Five".
+
+
