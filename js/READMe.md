@@ -109,22 +109,21 @@ Number is : 5 and cube of the 5 is :125
 7. program to ask for a name until the user enters END. Print the name each time. When you are done, print "I am done."
 8. program which iterates the integers from 1 to 100. But for multiples of three print "Three" instead of the number and for the multiples of five print "Five". For numbers which are multiples of both three and five print "Three-Five".
 
+23/02/2023
+
 - break and continue statements within loop
 break is used to come out of the loop
 continue skip some repetitions
 
-
-
-
-
-
-
-
-
+- switch statement
 
 # Functions
+- Function declaration/definition
+- Function Call
+# Functions
 1. Find cube using functions
-2. Diameter & area of circle using functions
+2. Diameter & area of circle using functions   pi=3.142
 3. swap two numbers using function
 4. program to find the value of one number raised to the power of another using functions. 
-5. Write a value-returning function, isVowel that returns the value true if a given character is a vowel, and otherwise returns false. 
+5. Functions to perform various arithmetic operations.
+6. Write a value-returning function, isVowel that returns the value true if a given character is a vowel, and otherwise returns false. 
