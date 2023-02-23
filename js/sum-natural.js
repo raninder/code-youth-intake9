@@ -8,6 +8,7 @@ let sum=0;
 
 
 for(let i=1;i<=5;i++){
+	// sum=sum+i
 	let num = prompt("enter a number");
 sum =sum + num;  // 0  + 1  =1
 			// 0   + 1  = 1
@@ -17,3 +18,7 @@ sum =sum + num;  // 0  + 1  =1
 console.log("partial sum-", sum)
 }
 console.log("sum:",sum);
+
+
+5!= 5x4x3x2x1=120
+1x2x3x4x5=120
