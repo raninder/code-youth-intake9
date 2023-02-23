@@ -11,7 +11,8 @@
 // 10
 
 //first 10 natural nuymebrs
-for(let i=1;i<=10;i++){  //i=i+1//i++
+for(let i=1;i<=10;i++){ 
+	 //i=i+1//i++
 	console.log(i);
 }//n
 
