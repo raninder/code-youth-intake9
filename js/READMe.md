@@ -127,3 +127,24 @@ continue skip some repetitions
 4. program to find the value of one number raised to the power of another using functions. 
 5. Functions to perform various arithmetic operations.
 6. Write a value-returning function, isVowel that returns the value true if a given character is a vowel, and otherwise returns false. 
+
+24/02/2023
+- return statement
+- arrow functions
+
+Ex: using arrow functions:
+1. return greater of 2 numbers
+2. return average of 4 numbers
+3. check if leap year or not , return true/false
+
+
+- arrays -orderly collection of data
+
+array ex:
+1. read n number of values in an array and display it in reverse order.
+2. sum and average of marks
+3. to count total number of even and odd elements in an array.
+4. to print all negative elements in an array.
+4. search an element in array
+5. copy the elements of one array into another array. 
+6. find the smallest element in an array.
