@@ -1,4 +1,4 @@
-function isEven(num){
+function isEven(num){  // const isEven = (num) => { }
 	if(num%2==0){
 		return true;
 	}
