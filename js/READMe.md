@@ -148,3 +148,4 @@ array ex:
 4. search an element in array
 5. copy the elements of one array into another array. 
 6. find the smallest element in an array.
+7. sorting
