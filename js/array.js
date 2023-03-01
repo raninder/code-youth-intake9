@@ -37,3 +37,16 @@ console.log("last elemnt", colors[colors.length-1]);
 console.log("arrar elememnts are:", colors);
 
 
+//traversing arary elements
+// 1. simple for loop
+for(let j=0;j<colors.length;j++){
+	console.log("simple for",colors[j]);
+}
+
+//for loop using of
+for(let ele of colors){
+	console.log("for of",ele);
+}
+
+//forEach
+colors.forEach((item)=>console.log("foreach",item))
