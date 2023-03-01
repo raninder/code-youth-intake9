@@ -149,3 +149,100 @@ array ex:
 5. copy the elements of one array into another array. 
 6. find the smallest element in an array.
 7. sorting
+
+28/02/2023
+array methods
+1. Captialize every word in array  let arr = ['red','green','blue','gray','black'];  ['RED','GREEN'...]
+2. Given an array of movies, iterate over them using the forEach method of the array type and console.log 				every movie in the array preceded by an ascending number. e.g. 
+		1. Titanic  
+		2. Avatar
+3. find length of each word of array [3, 5,4,4,5]
+4. round an array of numbers [10.5, 23.5]   Math.floor   Math.ceil
+5. display only odd numbers from an array
+6. find the product of odd elements in an array
+7. find the sum of squares of an array
+8. Capitalize first letter of each word in an array
+
+1/3/2023
+1. create an object student with properties:
+id,
+name,
+address,  another object
+email,
+phone
+marks --array 
+course:
+hobbies-array
+
+
+in string form display:
+student John with id(1) and country(US) got (45) marks in first subject and is interested in these things
+
+2. The Recipe Card
+
+Create an object to hold information on your favorite recipe. It should have properties for title (a string), servings (a number), and ingredients (an array of strings).
+On separate lines (one console.log statement for each), log the recipe information so it looks like:
+Mole
+Serves: 2
+Ingredients:
+cinnamon
+cumin
+cocoa
+
+3. The Reading List
+Keep track of which books you read and which books you want to read!
+
+Create an array of objects, where each object describes a book and has properties for the title (a string), author (a string), and alreadyRead (a boolean indicating if you read it yet).
+Iterate through the array of books. For each book, log the book title and book author like so: "The Hobbit by J.R.R. Tolkien".
+Now use an if/else statement to change the output depending on whether you read it yet or not. If you read it, log a string like 'You already read "The Hobbit" by J.R.R. Tolkien', and if not, log a string like 'You still need to read "The Lord of the Rings" by J.R.R. Tolkien.'
+       const library = [ 
+                {
+                    title: 'The Road Ahead',
+                    author: 'Bill Gates',
+                    readingStatus: true
+                },
+                {
+                    title: 'Steve Jobs',
+                    author: 'Walter Isaacson',
+                    readingStatus: true
+                },
+                {
+                    title: 'Mockingjay: The Final Book of The Hunger Games',
+                    author: 'Suzanne Collins',
+                    readingStatus: false
+                }];
+4. Here’s the sample data.
+
+const characters = [
+  {
+    name: "Luke Skywalker",
+    height: 172,
+    mass: 77,
+    eye_color: "blue",
+    gender: "male",
+  },
+  {
+    name: "Darth Vader",
+    height: 202,
+    mass: 136,
+    eye_color: "yellow",
+    gender: "male",
+  },
+  {
+    name: "Leia Organa",
+    height: 150,
+    mass: 49,
+    eye_color: "brown",
+    gender: "female",
+  },
+  {
+    name: "Anakin Skywalker",
+    height: 188,
+    mass: 84,
+    eye_color: "blue",
+    gender: "male",
+  },
+];
+		1. Get characters with mass greater than 100
+		2. Get characters with height less than 200
+		3. Get all male characters
