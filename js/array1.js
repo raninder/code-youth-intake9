@@ -14,9 +14,12 @@ console.log(newArr);
 a=4
 b=5
 c=a+b
+const score4 = [];
 // Ex: Add two arrays and store in a third array
 let score3= [];
 for(i=0;i<score1.length;i++){
-	score3[i] = score1[i]+score2[i];
+	score3[i] = score1[i]+score2[i]; // score3.push(score1[i]+score2[i])
+	// score4[i] = score[3];
+	score4.push(score3[i]);
 }
 console.log("summ",score3);
