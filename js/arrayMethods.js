@@ -66,8 +66,75 @@ for(let i=0;i<arr2.length;i++){
 }
 console.log("arr after adding 2", arr2);
 let newArr = [];
-arr2.forEach((item) => newArr.push(item += 2));
+arr2.forEach((item) => newArr.push(item+2));
 console.log("foreach", newArr);
 
+// for(ele of arr2){
+// 	console.log(ele)
+// }
+
+//map method
+
+let arrMap = arr2.map((i)=>{return i*2})
+// let arrMap = arr2.map(multiply);
+// function multiply(a){
+// 	return a*2;
+// }
+// let arrMap = arr2.map(function(item){
+// 	return item*2;
+// })
+console.log("map",arrMap);
+
+let sqArr = arr2.map(ele => ele*ele )
+console.log("squared array",sqArr);
 
 
+
+//callback function- when a function is passed as a parameter to another function
+
+
+
+let str = "john";
+console.log("uppercase", str.toUpperCase());
+
+//filter- select elements which satisfy a particular condition
+let arrFilter = arr2.filter((ele)=> ele<0);
+console.log("filtered array",arrFilter);
+
+
+
+
+// chaining of methods
+newArr = arr2.map((item)=> item/2)
+							.filter((item)=> item<25)
+console.log("arr before", arr2);
+console.log("new array map and filter", newArr);		
+
+//reduce method
+
+//sum of marks
+let marks = [10,20,25,30,34];
+let newAr = marks.indexOf(40)
+console.log("check",newAr);
+// let sum = 0;
+// for(i=0;i<marks.length;i++){
+// 	sum += marks[i];
+// }
+let sum = marks.reduce((acc,current)=> acc+current,0);
+console.log(`sun: ${sum}`);
+
+//*** */ Ex: find square of each element of array using map method
+//*** */ Ex: Return only negative numbers from an array(filter)
+//***eX: find sum of postive numbers in an array(filter and reduce)
+
+let data = [2,-3,2,-6,-6,2,2]
+let res = data.filter((ele)=> ele>0)
+							.reduce((sum,current)=> sum+current);
+
+console.log("sum:",res )
+
+//join
+let  str1 = ["this","is","a ","Javascript", "class"];
+let newstr = str1.join(' ');
+console.log(newstr);
+console.log(newstr.split(' '));
