@@ -10,14 +10,25 @@
 	<h1>Heading</h1>
 	<p id="first">First Paragraph</p>
 	<p id="sec">Second Paragraph</p>
+	<ul>
+		<li id="red">Red</li>
+		<li id="green">Green</li>
+		<li id="blue">Blue</li>
+	</ul>
 	<button onclick="change()">Change</button>
 	<script>
 		function change(){
-		const first = document.getElementById("first");
-		console.log(first);
-		first.innerHTML="New paragraph";
-		first.style.color="red";
-		first.style.fontSize="30px";
+		// const first = document.getElementById("first");
+		// console.log(first);
+		// first.innerHTML="New paragraph";
+		// first.style.color="red";
+		// first.style.fontSize="30px";
+		const ele = document.getElementById("red");
+		ele.style.color="red";
+		const green = document.getElementById("green");
+		green.style.color="green";
+		const blue = document.getElementById("blue");
+		blue.style.color="blue";
 		}
 	</script>
 </body>
