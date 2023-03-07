@@ -89,6 +89,7 @@ You are given some names of different fruit and an unordered list html element; 
 </div>
 
 <h2>DOM Creating and Appending</h2>
+
     <!-- Write the function for adding the product to the cart -->
     <div class="product">
         <div class="imgDiv">
