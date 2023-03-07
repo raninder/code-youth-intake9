@@ -87,3 +87,32 @@ You are given some names of different fruit and an unordered list html element; 
 	<h1>
 	<p>
 </div>
+
+<h2>DOM Creating and Appending</h2>
+    <!-- Write the function for adding the product to the cart -->
+    <div class="product">
+        <div class="imgDiv">
+            <img src="https://m.media-amazon.com/images/I/61jR700-izL._SL1391_.jpg" alt="">
+        </div>
+        <p class="productDetails"><span class="name">Skateboard</span> $<span class="price">5.99</span></p>
+        <button class="addToCart" onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="cart">
+        <h1>Cart</h1>
+    </div>
+
+
+    <!-- Using a loop create 15 boxes. give each box the class 'box'. append them to the body so that there are 3 rows of 5 boxes -->
+    <!-- !Hint
+        it should look like this
+        ▢▢▢▢▢
+        ▢▢▢▢▢
+        ▢▢▢▢▢
+    -->
+
+
+
+    <!-- Write the function for the flip button. When pressed flip the body upside down. when pressed again it should flip again -->
+    <button onclick="flip()">Flip</button>
+
