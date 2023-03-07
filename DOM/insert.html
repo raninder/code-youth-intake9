@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.new{
+			color:red;
+			background-color: beige;
+		}
+		#test{
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<p id="first">First paragraph</p>
+	<p id="second">Second paragraph</p>
+	<div>
+
+	</div>
+	<button onclick = "addElement()">Add</button>
+	
+	<script>
+		function addElement(){
+			const para = document.createElement("p");
+			para.innerHTML="<b>Third paragraph</b>";
+			// document.body.append(para);
+			// document.body.insertBefore(newchild,oldchild)
+			const prev = document.getElementById('second');
+			// document.body.insertBefore(para,prev);
+				// document.body.replacechild(newchild,oldchild)
+				document.body.replaceChild(para,prev)
+		}
+	</script>
+</body>
+</html>
