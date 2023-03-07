@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.new{
+			color:red;
+			background-color: beige;
+		}
+		#test{
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<p id="first">First paragraph</p>
+	<p>Second paargraph</p>
+	<div>
+
+	</div>
+	<button onclick = "addElement()">Add</button>
+	<button onclick = "removeElement()">Remove</button>
+	<script>
+		function addElement(){
+			const para = document.createElement("p");
+			para.innerHTML="<b>Third paragraph</b>";
+			// para.style.color="red";
+			// para.class = 'new';
+			para.setAttribute('class','new');
+			para.setAttribute('title','paragraph');
+			para.id='test';
+			console.log(para);
+			//parent.append(child),  parent.appendChild(child)
+			// document.body.append(para);
+			// const div = document.querySelector('div');
+			// div.appendChild(para);
+			document.querySelector('div').append(para);
+		}
+		function removeElement(){
+				const rem = document.getElementById('first');
+				// rem.remove();
+				document.body.removeChild(rem);
+		}
+	</script>
+</body>
+</html>
