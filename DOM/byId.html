@@ -6,17 +6,39 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 </head>
-<body>
+<!-- <body onload="change()"> -->
+	<body>
 	<h1>Heading</h1>
-	<p id="first">First Paragraph</p>
-	<p id="sec">Second Paragraph</p>
+	<p id="first" onmouseover="bigger()">First Paragraph</p>
+	<p id="sec" onclick = "remove(this)">Second Paragraph</p>
 	<ul>
 		<li id="red">Red</li>
 		<li id="green">Green</li>
 		<li id="blue">Blue</li>
 	</ul>
-	<button onclick="change()">Change</button>
+	<!-- <button onclick="change()" ondblclick="change1()">Change</button> -->
+	<button>Change</button>
 	<script>
+		const button=document.querySelector('button');
+		// button.onclick=function (){
+		// 	const green = document.getElementById("green");
+		// green.style.color="green";
+		// }
+
+		// button.onclick = change;
+	
+		// function bigger(){
+		// 	const first = document.getElementById('first');
+		// 	first.style.fontSize="20px";
+		// }
+
+		button.addEventListener('click',change);
+		button.addEventListener('click',(e)=>{
+			alert(e.target);
+			button.style.backgroundColor="black";
+			button.style.color="white";
+		});
+
 		function change(){
 		// const first = document.getElementById("first");
 		// console.log(first);
@@ -25,10 +47,19 @@
 		// first.style.fontSize="30px";
 		const ele = document.getElementById("red");
 		ele.style.color="red";
-		const green = document.getElementById("green");
-		green.style.color="green";
+		// const green = document.getElementById("green");
+		// green.style.color="green";
 		const blue = document.getElementById("blue");
 		blue.style.color="blue";
+		}
+		// function change1(){
+		// 	// console.log(e.target);
+		// 	// const ele=document.querySelector('button');
+		// 	button.style.backgroundColor="black";
+		// 	button.style.color="white";
+		// }
+		function remove(item){
+				item.remove();
 		}
 	</script>
 </body>
