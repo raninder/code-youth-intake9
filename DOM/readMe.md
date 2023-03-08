@@ -16,6 +16,46 @@ Ex3: create a button with text ON,with background color red and text color white
 
 Ex4: Highlight all of the bold words in the paragraph text (with a yellow background for example)
 
+<h3>DOM Selecting and style</h3>
+
+
+    <!--1. Using Dom colour in the bee below -->
+    <h1>Question 1</h1>
+
+    <div class="bee">
+        <div class="beeStinger"></div>
+        <div class="beeBody">
+            <div class="beeSection"></div>
+            <div class="beeSection"></div>
+            <div class="beeSection"></div>
+            <div class="beeSection"></div>
+            <div class="beeSection"></div>
+        </div>
+        <div id="beeHead"></div>
+    </div>
+
+
+
+
+
+    <!--2. Write the function for this button. When the function runs it should show an alert of whatever the message in the button is -->
+    <h1>Question 2</h1>
+
+    <button onclick="printMessage()" id="messageButton" message="You did it!!">Message</button>
+
+
+
+
+
+
+    <!--3. Write the spin function. When clicked spin the shape 90 degrees clock-wise -->
+    <!-- !Hint: the unit used for rotate is deg     ex(90deg) -->
+    <h1>Question 3</h1>
+
+    <div onclick="spin()" class="shape"></div>
+
+
+
 
 ex1:
 Give all the images at even position a similar border color and style, and all the images at odd position same border style but different then the even ones.
@@ -63,3 +103,33 @@ Add a check to ensure the length of the input is larger than 3 characters long
 	<h1>
 	<p>
 </div>
+
+<h2>DOM Creating and Appending</h2>
+
+    <!-- Write the function for adding the product to the cart -->
+    <div class="product">
+        <div class="imgDiv">
+            <img src="https://m.media-amazon.com/images/I/61jR700-izL._SL1391_.jpg" alt="">
+        </div>
+        <p class="productDetails"><span class="name">Skateboard</span> $<span class="price">5.99</span></p>
+        <button class="addToCart" onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="cart">
+        <h1>Cart</h1>
+    </div>
+
+
+    <!-- Using a loop create 15 boxes. give each box the class 'box'. append them to the body so that there are 3 rows of 5 boxes -->
+    <!-- !Hint
+        it should look like this
+        ▢▢▢▢▢
+        ▢▢▢▢▢
+        ▢▢▢▢▢
+    -->
+
+
+
+    <!-- Write the function for the flip button. When pressed flip the body upside down. when pressed again it should flip again -->
+    <button onclick="flip()">Flip</button>
+
