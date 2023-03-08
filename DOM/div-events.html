@@ -1,0 +1,43 @@
+<!-- 1. Implement a 'click' event handler that toggles the 'A' area between the background colors 'silver' and 'gold'. -->
+<!-- 2. Implement two event handlers for the 'C' area, 'mouseenter' and 'mouseleave'. When the mouse pointer enters the area, its background color changes to "red"; when it leaves the area, its background color changes to "green". -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <style>
+   .container {
+      display: grid;
+      grid-template-columns: 49% 49%;
+      grid-template-rows:    10em 10em;
+      gap: 1%;
+      background-color: AliceBlue;
+      margin: 2em;
+      padding: 2em;
+    }
+    .cell {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: blue;
+      font-size: 3em;
+    }
+  </style>
+</head>
+
+<body id="body">
+  <div class="container">
+    <div id="divA" class="cell">A</div>
+    <div id="divB" class="cell">B</div>
+    <div id="divC" class="cell">C</div>
+    <div id="divD" class="cell">D</div>
+    <script>
+      const divA = document.querySelector('#divA');
+      console.log(divA);
+      divA.addEventListener('click', colorchange);
+      function colorchange(){
+        alert("hi");
+      }
+      </script>
+</body>
+</html>
