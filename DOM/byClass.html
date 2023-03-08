@@ -11,16 +11,17 @@
 	<p class="para">First Paragraph</p>
 	<p id="sec">Second Paragraph</p>
 	<p class="para2">Third paragraph</p>
-	<button onclick="alter()">click</button>
+	<button onclick="alter(event)">click</button>
 	<script>
-		function alter(){
-		const ele = document.getElementsByClassName("para");
-		console.log(ele);
-		ele[0].style.color="red";
-		// ele[1].style.color="red";
-		for(let i=0;i<ele.length;i++){
-			ele[i].style.color="red";
-		}
+		function alter(e){
+			alert(e.target)
+		// const ele = document.getElementsByClassName("para");
+		// console.log(ele);
+		// ele[0].style.color="red";
+		// // ele[1].style.color="red";
+		// for(let i=0;i<ele.length;i++){
+		// 	ele[i].style.color="red";
+		// }
 
 		}
 		let arr = [5]
