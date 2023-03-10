@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		const newdata = {
+		id: 4,
+    name: 'bar',
+    city: 1,
+		}
+		fetch('data.json',{
+		method:'post',
+		body: JSON.stringify(newdata),
+		headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  	},	
+		})
+		.then((response) => response.json())
+  .then((json) => console.log(json));
+	</script>
+</body>
+</html>
