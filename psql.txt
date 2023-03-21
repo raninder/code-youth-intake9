@@ -1,0 +1,75 @@
+database- organized collection of data or collection of tables
+DBMS- Database Management System- software to manage dataabse
+RDBMS - data is organized in form of tables
+table- rows and cols representaion for storing data
+keys- primary key, foreign keys
+primary key - attribute which uniquely identifies record in a table
+Foreign Key - attribute which is used to link two or more tables, it is always primary key of another table
+ERD- Entity Relationship Diagram,diagrams used for designing database
+SQL- Structured Query Language, language used by DBMS to perform various operations on databases
+   - PSQL- PostgreSQL
+	 - MySQL
+	 - MSSQL
+
+Resources:
+- Introduction to databases
+https://www.elephantsql.com/blog/databases-for-beginners-what-is-a-database-what-is-postgresql.html
+https://www.programiz.com/sql/database-introduction
+
+- different types of keys
+https://www.learncomputerscienceonline.com/database-keys/
+
+- entity Relationaship model
+https://www.javatpoint.com/dbms-er-model-concept
+
+- Installation postgresql
+https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/
+
+- tutorial
+https://www.tutorialspoint.com/postgresql/
+https://tomcam.github.io/postgres/
+https://www.programiz.com/sql
+
+- Elephantsql
+https://customer.elephantsql.com/login
+
+commands:
+1. CREATE DATABASE db_name;
+2. connect to database:  \c db_name
+3. to list tables in a database \dt 
+4. \l to list databases
+5. create a table:
+CREATE TABLE table_name(
+   column1 datatype PRIMARY KEY,
+   column2 datatype,
+   column3 datatype,
+   .....
+   columnN datatype,
+   
+);
+
+CREATE TABLE customers(id INT PRIMARY KEY, fname VARCHAR(20), lname VARCHAR(20), phone VARCHAR(15), country VARCHAR(20), salary REAL);
+
+6. inserting into table
+INSERT INTO TABLE_NAME (column1, column2, column3,...columnN)
+VALUES (value1, value2, value3,...valueN);
+
+7. CREATING TABLE WITH FOREIGN KEY
+CREATE TABLE orders( 
+order_id SERIAL PRIMARY KEY,
+product VARCHAR(20),
+total INT,
+customer_id INT REFERENCES customers(id) ON DELETE CASCADE
+);
+
+8. to delete a table
+DROP TABLE table_name
+
+9. schema of a table
+\d tablename;
+
+10.  view all data in a table
+SELECT * FROM table_name;
+
+11.  view selecetd data in a table
+SELECT * FROM table_name WHERE condition;
