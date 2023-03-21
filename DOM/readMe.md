@@ -82,6 +82,7 @@ https://github.com/wesbos/JavaScript30
 https://www.crocoder.dev/blog/the-dom-exercises/
 https://medium.com/nerd-for-tech/up-your-dom-manipulation-game-through-these-exercises-part-01-103864ac8b0b
 https://www.tutorialstonight.com/js/js-dom-events
+https://www.freecodecamp.org/news/the-javascript-dom-a-practical-tutorial/
 
 8/3/2023
 1. Implement a 'click' event handler that toggles the 'A' area between the background colors 'silver' and 'gold'.
