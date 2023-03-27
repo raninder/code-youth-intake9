@@ -29,6 +29,8 @@ https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql
 https://www.tutorialspoint.com/postgresql/
 https://tomcam.github.io/postgres/
 https://www.programiz.com/sql
+https://lgatto.github.io/sql-ecology/
+
 
 - Elephantsql
 https://customer.elephantsql.com/login
@@ -73,3 +75,37 @@ SELECT * FROM table_name;
 
 11.  view selecetd data in a table
 SELECT * FROM table_name WHERE condition;
+
+12. Aggregate functions
+count 
+Max
+Min
+Avg
+Sum
+
+13. Group by
+14. HAVING
+15. ORDER by
+
+
+
+  
+-- find the number of customers in each country
+
+SELECT  country, count(*) AS count1
+FROM customers
+GROUP BY country
+HAVING count(*)>1;
+ 
+ -- find no. of orders for each item
+ 
+ -- Find the total amount with their customer ID, for only those customers who have the
+total purchase amount in a day is more than 500. (group by, having)
+
+
+
+CRUD 
+C - CREATE          POST
+R - READ (select)    GET
+U - UPDATE           PUT/PATCH
+D - DELETE           DELETE
