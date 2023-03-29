@@ -106,3 +106,7 @@ https://medium.com/@ianjsikes/build-a-personal-website-with-html-and-css-part-2-
 - media query
 - grid layout
 https://www.quackit.com/css/grid/tutorial/css_grid_introduction.cfm
+
+
+- code debug
+https://lightrun.com/vscode-to-debug-node-js-application/
