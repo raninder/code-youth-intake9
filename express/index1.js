@@ -30,6 +30,9 @@ app.get('/user',(req,res)=>
 res.redirect('https://google.com')
 )
 
+app.get('/list',(req,res)=>
+res.render('second')
+)
 app.get('/contact',(req,res)=>
 res.send("Contact us at: abc@gmail.com")
 )
