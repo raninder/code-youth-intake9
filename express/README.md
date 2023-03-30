@@ -15,3 +15,6 @@ https://www.topcoder.com/thrive/articles/using-ejs-template-engine-with-express-
 Exercises:
 1. A webpage with Header containing Navbar and Footer common in 2-3 files
 2. create a products file, export it and render deifefrent products and single product with express server
+
+3. to create two separate routes for users and admin
+4. to craete a course registeration form and render entered values in html in a table format
