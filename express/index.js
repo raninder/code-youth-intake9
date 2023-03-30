@@ -8,6 +8,7 @@ app.use(express.static('public'))
 // )
 app.get('/about',(req,res)=>
 res.send("<h1>About</h1>")
+// res.send({user})
 )
 
 const data = [{id:1, name:"bob"},{id:2, name:"john"},{id:3, name:"Alex"}]
