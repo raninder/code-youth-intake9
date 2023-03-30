@@ -1,5 +1,5 @@
 const express = require('express')
-const users = require('./users')
+const users = require('./users.js')
 const app  = express()
 
 
@@ -10,7 +10,8 @@ console.log("users",users);
 app.get('/',(req,res)=>
 // res.render('first',{name:'bob'})
 // res.render('first',{data:users})
-res.json(users)
+// res.json(users)
+res.render('first',{data:users})
 )
 
 app.get('/:id',(req,res)=>{
