@@ -17,4 +17,9 @@ Exercises:
 2. create a products file, export it and render deifefrent products and single product with express server
 
 3. to create two separate routes for users and admin
-4. to craete a course registeration form and render entered values in html in a table format
+4. to create a course registeration form and render entered values in html in a table format
+
+Building CRUD REST API With Node.js, Express.js, and PostgreSQL
+https://www.atatus.com/blog/building-crud-rest-api-with-node-js-express-js-and-postgresql/
+https://www.taniarascia.com/node-express-postgresql-heroku/
+https://codeburst.io/creating-a-todo-app-with-node-js-express-and-postgresql-database-6dbf80c3fe9c
