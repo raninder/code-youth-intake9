@@ -6,7 +6,7 @@ const db = require('./db')
 app.get('/users',db.getUsers) //postman api: localhost:8080/users
 
 app.get('/users/:id',db.getUserById) //postman api: localhost:8080/users/2
-// app.post('/users',db.createUser)
+
 app.set("view engine","ejs")
 app.get('/',(req,res)=>
 res.render('form'))
