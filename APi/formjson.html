@@ -1,0 +1,33 @@
+<html>
+ <head>
+ </head>
+ <body>
+     <label>First Name:<label>
+     <input id="firstname" type="text">
+     <br>
+     <label>Last Name:<label>
+     <input id="lastname" type="text">
+     <br>
+     <button id="jsonbtn" >Click to convert input to JSON</button>
+     <p id="jsontext"></p>
+		 <script>
+			 var firstname = document.getElementById("firstname")
+var lastname = document.getElementById("lastname")
+var jsonBtn = document.getElementById("jsonbtn")
+var jsonText = document.getElementById("jsontext")
+
+
+
+jsonBtn.addEventListener("click", function(){
+    var data = {
+        "firstName":firstname.value,
+        "lastName":lastname.value
+    }
+    jsonText.innerHTML = JSON.stringify(data)
+})
+
+// Requiring fs module
+
+		 </script>
+ </body>
+</html>
